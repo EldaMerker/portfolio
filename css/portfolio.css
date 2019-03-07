@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.mainvidual{
+  display: table;
+  width:100%;
+  height: 100vh;
+  background-color: #000;
+}
+.portfolio-wrapper{
+  margin-top: 85px;
+}
+.portfolio-title{
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.access-container{
+  padding-top:40px;
+  width:1080px;
+  margin: 0 auto;
+}
+.access-box{
+  display: table-cell;
+  padding:0;
+  width:360px;
+  text-align: center;
+}
+.access-box h3{
+  letter-spacing: 3px;
+  font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width:768px){
+  .portfolio-wrapper{
+    margin-top: 30px;
+  }
+  .portfolio-title{
+    font-size: 24px;
+    display: none;
+  }
+  .title-container{
+    width: 100%;
+  }
+  .access-container{
+    width:100%;
+  }
+  .access-box{
+    display: block;
+    width: 100%;
+  }
+}

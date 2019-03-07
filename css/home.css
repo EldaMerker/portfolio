@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.mainvidual{
+  display: table;
+  text-align: center;
+  width:100%;
+  height: 100vh;
+
+}
+.title-container{
+  display: table-cell;
+  vertical-align: middle;
+}
+.site-title{
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.sub{
+  font-size: 24px;
+}
+
+@media (max-width:768px){
+
+}
