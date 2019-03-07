@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.works-vidual-wrapper{
+  width:100%;
+  margin-top:40px;
+}
+.works-inner{
+  width:960px;
+  margin: 0 auto;
+  font-family: "ヒラギノ角ゴ Pro W3";
+}
+.works-text-box{
+  width:400px;
+  float: left;
+}
+.works-text-box h1{
+  font-size: 24px;
+  margin-bottom:30px;
+}
+.works-text-box p{
+  line-height: 1.7;
+}
+.works-text-box a{
+  display: block;
+  margin-top:20px;
+  color:#fff;
+  text-decoration: underline;
+}
+.works-text-box a:hover{
+  text-decoration: none;
+}
+.works-vidual-box{
+  width:500px;
+  float: right;
+  text-align:center;
+}
+.works-vidual-box img{
+  display: block;
+  width:500px;
+  border: 1px solid #B59658;
+}
+.works-vidual-box p{
+  line-height: 1.5;
+}
+.works-vidual-box p:hover{
+  text-decoration: underline;
+}
+.works-vidual-box a{
+    margin-bottom:30px;
+    display: block;
+}
+.other-works-wrapper{
+  width:100%;
+  margin-top:60px;
+}
+.other-works-inner{
+  width:960px;
+  margin: 0 auto;
+}
+.other-works-inner h1{
+  border-bottom: 1px solid #B59658;
+  padding-bottom: 12px;
+}
+
+/* ipad******************************** */
+@media (max-width:768px){
+  .works-inner{
+    width:100%;
+  }
+  .works-text-box{
+    width:96%;
+    float: none;
+    margin-bottom:60px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .works-vidual-box{
+    float: none;
+    width:100%;
+  }
+  .works-vidual-box img{
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+/* ends-ipad************************* */
