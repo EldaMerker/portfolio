@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:100%;
+vertical-align:baseline;
+  background:transparent;
+ }
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family:'Helevetica Neue','ヒラギノ角ゴシック ProN','Yu Gothic Medium','メイリオ', meiryo, sans-serif;
+   font-size:12px;
+ }
+
+.main-vidual{
+  padding-top:60px;
+  width:100%;
+}
+.container{
+  width:960px;
+  margin: 0 auto;
+}
+.wrapper{
+  width:100%;
+  text-align: left;
+}
+.ttl{
+  font-size: 18px;
+  margin-bottom:24px;
+}
+.ttl::after{
+  display: block;
+  border-bottom: solid 1px #3c2617;
+  width:960px;
+  padding-bottom:12px;
+  content:"";
+}
+.ttx{
+  float: left;
+  width:47%;
+  display: block;
+
+}
+.img{
+  float:right;
+  width: 47%;
+  display: block;
+}
+.img img{
+  width: 100%;
+  height: auto;
+}
+.ttx h2{
+  font-size: 13px;
+  margin-bottom:20px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.ttx p{
+  line-height: 26px;
+}
+@media (max-width:768px){
+  .ttl{
+    font-size: 18px;
+    margin-bottom:24px;
+  }
+.ttl::after{
+  width:100%;
+  content:"";
+}
+
+.container{
+  width:84%;
+  margin: 0 auto;
+}
+.contents-wrapper{
+  width: 100%;
+}
+.ttx{
+  float: none;
+  width:100%;
+
+}
+.img{
+  float:none;
+  width: 100%;
+}
+.img img{
+  margin-top:30px;
+}
+}

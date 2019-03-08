@@ -1,0 +1,122 @@
+
+/* start-reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:100%;
+vertical-align:baseline;
+  background:transparent;;
+ }
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+a:hover{
+  color: #ec253a;
+}
+div ul li h1 h2 h3 h4 a p{
+  display: block;
+}
+/* ends-reset */
+/* color-set */
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family:'游ゴシック','Yu Gothic Medium','メイリオ', meiryo, sans-serif;
+   font-size:14px;
+ }
+ li{
+   list-style: none;
+ }
+ .clear-fix{
+   clear:both;
+ }
+/* ends-color-set */
+/* start-css---------------------------------------------------- */
+header{
+  width:100%;
+  background-color: #000;
+  height: 60px;
+}
+.header{
+  width:960px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+  display: block;
+  width:142px;
+}
+.header ul li{
+  display: block;
+  float: left;
+  width:134.3px;
+  text-align: right;
+}
+.header ul li a{
+  line-height: 60px;
+  font-size: 14px;
+}
+.mainvidual{
+  width: 100%;
+}
+.section-wrapper{
+  margin: 25px auto 0;
+  width:960px;
+}
+.section-wrapper h1{
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.section-txt{
+  width:47%;
+  float: left;
+}
+
+.txt1{
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.txt2{
+  font-size: 12px;
+  line-height: 1.8;
+}
+.section-img{
+  width:43%;
+  float: right;
+}
+.section-img img{
+    height: 250px;
+}
+.infinite-wrapper{
+  width:100%;
+
+
+}
+#infinite{
+  width: 100%;
+  margin-top: 40px;
+  overflow: hidden;
+}
+#infinite li{
+  float: left;
+
+  width: 320px;
+
+}

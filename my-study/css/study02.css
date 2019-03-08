@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@media (max-width: 768px) {
+  body,article{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:1em;
+ }
+
+ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family: 'YuGothic','Yu Gothic','メイリオ', meiryo, sans-serif;
+   font-size:16px;
+ }
+.clear-fix{
+  clear:both;
+}
+.contact-box-wrapper{
+  width: 100%;
+  padding-top:60px;
+}
+.contact-box-container{
+  box-sizing: border-box;
+  width:960px;
+  margin:  0 auto;
+
+}
+.contact-box{
+  width:100%;
+  border: solid 2px #008;
+  border-radius: 8px;
+  color:#008;
+  float: left;
+  box-sizing: border-box;
+}
+.box-ttl{
+  width:30%;
+  background-color:#008;
+  float: left;
+}
+.box-ttl p{
+  padding-left: 15px;
+font-size: 18px;
+line-height: 175px;
+font-weight: bold;
+text-align: left;
+color:#fff;
+}
+.box-content{
+  width:70%;
+  float:left;
+  box-sizing: border-box;
+    padding:12px;
+    text-align: left;
+}
+
+.tel{
+  color:#008;
+}
+.tel p{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+.tel span{
+  font-size: .8em;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.date-box{
+  overflow: hidden;
+  margin-bottom: 10px;
+  width:100%;
+}
+.date{
+  list-style: none;
+  width: 48%;
+  float: left;
+}
+.date:last-child{
+  float:right;
+}
+.date dl{
+  overflow: hidden;
+}
+.date dt{
+  font-weight: normal;
+  background-color:#008;
+  color:#fff;
+  margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 2em;
+    font-size: 14px;
+    padding-left: 1em;
+}
+.holiday{
+  font-size: 14px;
+
+}
+@media only screen and (max-width:768px){
+
+.contact-box-wrapper{
+  padding:25px;
+}
+  .contact-box-container{
+    margin: 0 auto;
+    width:100%;
+    padding:0 4%;
+    display: block;
+    text-align: center;
+  }
+  .box-content{
+    width:100%;
+    padding:0 4%;
+    display: block;
+  }
+  .holiday{
+    text-align: center;
+  }
+  .box-ttl{
+    font-size: 18px;
+  text-align: center;
+    width: 100%;
+    padding:0;
+    display: block;
+  }
+ .box-ttl h3{
+   padding: 7px 0 8px;
+ }
+ .tel p{
+   font-size: 24px;
+ }
+ .tel span{
+   margin-right: 10px;
+ }
+ .date{
+   padding-top:0;
+ }
+ .date h3{
+   font-size: 14px;
+
+ }
+}

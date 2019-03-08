@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* start-reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:100%;
+vertical-align:baseline;
+  background:transparent;;
+ }
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    color: #0bd;
+    font-size: 16px;
+}
+a:hover{
+  text-decoration: none;
+}
+/* ends-reset */
+/* color-set */
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family:'Yu Gothic Medium','メイリオ', meiryo, sans-serif;
+   font-size:14px;
+ }
+ li{
+   list-style: none;
+ }
+ .clear-fix{
+   clear:both;
+ }
+/* ends-color-set */
+
+/* start-css */
+.contents-wrapper{
+width: 960px;
+margin: 60px auto 0;
+}
+.contents-box{
+    height: 480px;
+    width:100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-top: solid 1px #c0c0c0;
+    border-bottom: solid 1px #c0c0c0;
+}
+.images{
+  width:100%;
+}
+.contents-box ul li{
+  width:920px;
+  padding:20px;
+  float: left;
+  text-align: left;
+  border-bottom: 1px dashed #c0c0c0;
+}
+.contents-box ul li:last-child {
+  border-bottom:0;
+}
+.inner-left{
+  float: left;
+  width:27%;
+  padding-left: 3%;
+  height: 165px;
+
+}
+.inner-right{
+  float: left;
+  width:64%;
+  padding-left:3%;
+  height: 165px;
+    position: relative;
+}
+.ttl{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.txt{
+  padding-top: 10px;
+}
+.continue{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  text-align: right;
+}
+
+/* i-pad */
+@media only screen and (max-width:768px){
+
+.contents-wrapper{
+  width:100%;
+}
+.contents-box{
+  height: 70vh;
+  margin: 0 4%;
+  width:92%;
+}
+.contents-box ul li{
+  width:92%;
+  float: none;
+  padding: 8% 4%;
+}
+.inner-left{
+  float: none;
+  width:100%;
+  height:auto;
+  padding-left: 0;
+}
+.inner-right{
+  float: none;
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+}
+.inner-right a{
+  position: relative;
+  padding-top: 20px;
+}
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:1em;
+ }
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family:'Yu Gothic','メイリオ', meiryo, sans-serif;
+   font-size:16px;
+ }
+.mainvidual{
+  width:100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/pc.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.container{
+  width:960px;
+  margin: 0 auto;
+    box-sizing: border-box;
+}
+.inner{
+  width: 960px;;
+  position: absolute;
+  top:35%;
+}
+
+.copy{
+  text-align:left;
+  color:#fff;
+}
+.copy h2{
+  font-size: 44px;
+}
+.copy p{
+  display: block;
+  width: 100%;
+  margin-top:25px;
+  line-height: 1.8em;
+}
+.btn{
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top:50px;
+  display: block;
+  border:solid 1px #fff;
+  color:#fff;
+  width: 120px;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover{
+  background-color: rgba(255,255,255,0.4);
+  color:#000;
+}
+
+/* cell-phone */
+@media only screen and (max-width:768px){
+  body{
+    font-size:14px;
+  }
+.mainvidual{
+  background: url(../img/sp.jpg) no-repeat;
+  background-size: cover;
+  background-position:center;
+  min-height: 568px;
+}
+.container{
+  width:100%;
+  height: 100%;
+  padding:0 4%;
+  box-sizing: border-box;
+  position: relative;
+}
+.inner{
+  width:100%;
+  position: relative;
+  top:30%;
+}
+.copy h2{
+  font-size: 28px;
+}
+.copy p{
+  margin-top:20px;
+  line-height: 1.6em;
+}
+.btn{
+  margin-top:30px;
+}
+
+}
+/* ends-@media */

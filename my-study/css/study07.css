@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* start-reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:100%;
+vertical-align:baseline;
+  background:transparent;;
+ }
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color:#000;
+}
+/* ends-reset */
+
+/* color-set */
+ body{
+   background-color: #fff;
+   color:#000;
+   font-family:'Yu Gothic Medium','メイリオ', meiryo, sans-serif;
+   font-size:14px;
+ }
+ li{
+   list-style: none;
+ }
+ .clear-fix{
+   clear:both;
+ }
+/* ends-color-set */
+
+ /* start-css */
+.link-wrapper{
+  margin-top:60px;
+  background-color: #eee;
+}
+.link-wrapper ul{
+  width:960px;
+  margin: 0 auto;
+
+}
+.link-wrapper ul li{
+  float: left;
+  height: 60px;
+  text-align: center;
+
+
+}
+
+.link-wrapper ul li a{
+  margin-top: 19px;
+    line-height: 22px;
+    color:#6d6d6d;
+    display: block;
+    width:159px;
+    border-left: solid 1px #6d6d6d;
+}
+.link-wrapper ul li:last-child a{
+  border-right: solid 1px #6d6d6d;
+  width:158px;
+}
+.link-wrapper ul li a:hover{
+    color: #ec253a;
+}
+footer{
+  background-color: #000;
+  text-align: center;
+  padding: 12px 0;
+}
+footer p{
+  font-size: 12px;
+  color:#fff;
+}
+
+@media only screen and (max-width:768px){
+
+.link-wrapper ul{
+  width: 100%;
+
+}
+.link-wrapper ul li{
+  text-align: left;
+  width: 100%;
+  height: auto;
+  float: none;
+    display: block;
+    border-top: solid 1px #6d6d6d;
+
+
+}
+.link-wrapper ul li a{
+  border: none;
+  width: 96%;
+  margin: 0;
+  padding:12px 0;
+    margin-left: 4%;
+}
+.link-wrapper ul li:last-child a{
+  border: none;
+      border-bottom: 1px solid #666464;
+      width:96%;
+}
+}

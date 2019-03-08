@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+ address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
+ b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+ thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section,
+ time, mark, audio, video{
+margin: 0;
+padding: 0;
+border:0;
+outline: 0;
+font-size:1em;
+ }
+/* pc */
+
+.study-wrapper{
+  width:100%;
+  padding-top:60px;
+}
+.study-container{
+  width:860px;
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+}
+
+.study-content{
+  width: 200px;
+  padding-right: 130px;
+  display: table-cell;
+}
+.study-content:last-child{
+  padding-right:0;
+}
+.study-content a:hover{
+  opacity: 0.7;
+}
+/* font-style */
+h4{
+  font-family: "ヒラギノ角ゴシック ProN";
+  font-size: 18px;
+}
+p{
+  font-family: "游ゴシック medium";
+  font-size: 16px;
+}
+/* スマホ */
+@media only screen and (max-width: 768px){
+  body{
+    width:100%;
+  }
+  .study-wrapper{
+    width:100%;
+    padding-top:60px;
+    display: block;
+  }
+.study-container{
+  max-width:200px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.study-content{
+  padding-top:40px;
+  display: block;
+}
+
+}
